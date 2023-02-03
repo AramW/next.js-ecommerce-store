@@ -1,0 +1,30 @@
+.header {
+  nav {
+    background-color: rgb(37, 140, 27);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    margin-top: 10px;
+
+    & a + a,
+    span + a {
+      margin-left: 130px;
+    }
+
+    div {
+      margin-right: auto;
+      display: flex;
+      gap: 6px;
+    }
+  }
+}
+
+.footer {
+  background-color: #ddd;
+  border-radius: 6px;
+  margin: 20px 0;
+  display: flex;
+  margin-top: 20px;
+  padding: 15px;
+  border-top: 2px solid var(--main-bg-color);
+}
