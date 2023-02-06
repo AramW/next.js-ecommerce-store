@@ -11,7 +11,7 @@
     "**/*.mjs",
     ".next/types/**/*.ts",
     "next-env.d.ts",
-    "app/neon-button"
+    "app/neon-button.js"
   ],
   "compilerOptions": {
     "jsx": "preserve",
