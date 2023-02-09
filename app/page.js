@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Button from './Button';
+import Card from './Card.js';
 import styles from './page.module.scss';
 
 // import neon-button from './neon-button' //;
@@ -7,27 +8,39 @@ import styles from './page.module.scss';
 export default function Homepage() {
   return (
     <main>
-      <h1>A.J.</h1>
       <Image
         className={styles.image}
-        src="/jersey11.webp"
-        alt="A.J."
-        width="150"
-        height="150"
+        src="/Eagles Logo.png"
+        alt=""
+        width="200"
+        height="200"
       />
-      <button className="neon-button">Lets Go!</button>
-      <h2>Westbrook</h2>
+      Welcome to your 2023 Nfc Champions merch store:
       <Image
         className={styles.image}
-        src="/Westbrook20.webp"
-        alt="Westbrook"
-        width="150"
-        height="150"
+        src="/Eagles_Helmet.png"
+        alt=""
+        width="200"
+        height="200"
       />
-      <button className="neon-button">Lets Go!</button>
-      <h3>Dawkins</h3>
-      <img className={styles.image} src="/Dawkins20.webp" alt="Dawkins" />
-      <button className="neon-button">Lets Go!</button>
+      <h2> </h2>
+      <Button>Lets Go!</Button>
+      <Image
+        className={styles.image1}
+        src="/Eagles_Merch_Home1.png"
+        alt="Eagles_Merch_Home"
+        width="1362"
+        height="675"
+      />
+      <h2> </h2>
+      <button>Lets Go!</button>
+      <Image
+        className={styles.image2}
+        src="/Hurts.png"
+        alt="Hurst"
+        width="1366"
+        height="478"
+      />
     </main>
   );
 }

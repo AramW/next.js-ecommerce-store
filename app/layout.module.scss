@@ -1,7 +1,7 @@
 .header {
   nav {
-    background-color: rgb(37, 140, 27);
-    border-radius: 10px;
+    background-color: #004b53;
+    border-radius: flex;
     padding: 15px;
     display: flex;
     margin-top: 10px;
@@ -20,11 +20,11 @@
 }
 
 .footer {
-  background-color: #ddd;
-  border-radius: 6px;
+  background-color: #004b53;
+  border-radius: flex;
   margin: 20px 0;
   display: flex;
   margin-top: 20px;
-  padding: 15px;
+  padding: 1px;
   border-top: 2px solid var(--main-bg-color);
 }

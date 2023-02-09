@@ -1,7 +1,7 @@
 export default function TeamsHead() {
   return (
     <>
-      <title>Team Page</title>
+      <title>Team</title>
       <meta name="description" content="This is my Team Page" />
     </>
   );
