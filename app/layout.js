@@ -12,8 +12,8 @@ export default function RootLayout({ children }) {
             <div>
               <Link href="/">Home</Link>
               <Link href="/team">Team</Link>
-              <Link href="/afc">Afc</Link>
-              <Link href="/nfc">Nfc</Link>
+              <Link href="/other">Other</Link>
+              <Link href="/help">Help</Link>
             </div>
           </nav>
         </header>

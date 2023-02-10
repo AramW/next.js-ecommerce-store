@@ -1,7 +1,7 @@
-export default function NfcHead() {
+export default function HelpHead() {
   return (
     <>
-      <title>Nfc Page</title>
+      <title>Help</title>
       <meta name="description" content="This is my Conference Page" />
     </>
   );

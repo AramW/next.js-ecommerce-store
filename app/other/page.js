@@ -1,3 +1,3 @@
 export default function AfcPage() {
-  return <main>Afc Teams:</main>;
+  return <main>Other</main>;
 }

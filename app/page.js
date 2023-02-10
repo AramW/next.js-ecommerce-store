@@ -8,22 +8,25 @@ import styles from './page.module.scss';
 export default function Homepage() {
   return (
     <main>
-      <Image
-        className={styles.image}
-        src="/Eagles Logo.png"
-        alt=""
-        width="200"
-        height="200"
-      />
-      Welcome to your 2023 Nfc Champions merch store:
-      <Image
-        className={styles.image}
-        src="/Eagles_Helmet.png"
-        alt=""
-        width="200"
-        height="200"
-      />
+      <h1>
+        <Image
+          className={styles.image}
+          src="/Eagles Logo.png"
+          alt=""
+          width="200"
+          height="200"
+        />
+        Welcome to your 2023 Nfc Champions merch store:
+        <Image
+          className={styles.image}
+          src="/Eagles_Helmet.png"
+          alt=""
+          width="200"
+          height="200"
+        />
+      </h1>
       <h2> </h2>
+      <br />
       <Button>Lets Go!</Button>
       <Image
         className={styles.image1}
@@ -32,7 +35,7 @@ export default function Homepage() {
         width="1362"
         height="675"
       />
-      <h2> </h2>
+      <h3> </h3>
       <button>Lets Go!</button>
       <Image
         className={styles.image2}
