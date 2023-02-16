@@ -13,6 +13,8 @@ import { players } from '../../../database/players';
 //    { id: 8, firstName: 'Jordan Mailata', type: 'Lt' },
 //  ];
 
+export const dynamic = 'force-dynamic';
+
 export default function PlayerPage({ params }) {
   const singlePlayer = players.find((player) => {
     return player.firstName.toLowerCase() === params.playerName;

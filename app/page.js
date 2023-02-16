@@ -27,7 +27,7 @@ export default function Homepage() {
       </h1>
       <h2> </h2>
       <br />
-      <Button>Lets Go!</Button>
+
       <Image
         className={styles.image1}
         src="/Eagles_Merch_Home1.png"
@@ -35,8 +35,10 @@ export default function Homepage() {
         width="1362"
         height="675"
       />
-      <h3> </h3>
-      <button>Lets Go!</button>
+      <h3>
+        <button>Lets Go!</button>
+      </h3>
+
       <Image
         className={styles.image2}
         src="/Hurts.png"
@@ -44,6 +46,9 @@ export default function Homepage() {
         width="1366"
         height="478"
       />
+      <h4>
+        <button>Lets Go!</button>
+      </h4>
     </main>
   );
 }
