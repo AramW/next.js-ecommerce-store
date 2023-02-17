@@ -20,7 +20,6 @@ export default function PlayerPage({ params }) {
     return player.firstName.toLowerCase() === params.playerName;
   });
 
-  console.log(singlePlayer);
   if (!singlePlayer) {
     // throw new Error('this action is not allowed');
     notFound();
